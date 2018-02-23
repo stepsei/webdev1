@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <title>My Website?</title>
+      </head>
+      <body>
+            <h1>Names</h1>
+
+            <ul>
+            {% for name in names %} <!-- jinja2 template syntax - allows python syntax to be used in html -->
+                  <li>{{ name }}</li>
+            {% endfor %}
+          </ul>
+      </body>
+</html>
